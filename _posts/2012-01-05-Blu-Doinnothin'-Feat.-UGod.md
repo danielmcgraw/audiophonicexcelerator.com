@@ -1,6 +1,6 @@
 ---
 artist: Blu
-song: Doinnothin' Feat. UGod
+track: Doinnothin' Feat. UGod
 site: vimeo
-vid: 31928186
+tid: 31928186
 ---

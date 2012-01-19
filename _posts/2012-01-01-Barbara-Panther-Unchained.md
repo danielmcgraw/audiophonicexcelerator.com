@@ -1,6 +1,6 @@
 ---
 artist: Barbara Panther
-song: Unchained
+track: Unchained
 site: vimeo
-vid: 31431667
+tid: 31431667
 ---

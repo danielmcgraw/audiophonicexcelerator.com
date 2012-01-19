@@ -1,6 +1,6 @@
 ---
 artist: Sunni Colón
-song: Lost Tribe
+track: Lost Tribe
 site: vimeo
-vid: 32555422
+tid: 32555422
 ---

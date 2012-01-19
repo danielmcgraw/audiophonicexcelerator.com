@@ -1,10 +1,21 @@
 ---
 layout: layout
-title: Daniel McGraw
+title: Audiophonic Excelerator
 ---
 
 {% for post in site.posts %}
 <article>
-  <iframe src="http://player.vimeo.com/video/{{ post.vid }}?title=0&amp;byline=0&amp;portrait=0" width="600" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  <div id="track">
+    {% if post.site == "vimeo" %}
+      <iframe src="http://player.vimeo.com/video/{{ post.tid }}?title=0&amp;byline=0&amp;portrait=0" width="600" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    {% elsif post.site == "soundcloud" %}
+      <object height="81" width="100%"><param name="movie" value="http://player.soundcloud.com/player.swf?url=http://soundcloud.com/{{ post.tid }}&amp;g=bb"></param><param name="allowscriptaccess" value="always"></param><embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http://soundcloud.com/{{ post.tid }}&amp;g=bb" type="application/x-shockwave-flash" width="100%"></embed></object>
+    {% endif %}
+  </div>
+  <div id="info">
+    <h2>Artist: <span>{{ post.artist }}</span></h2>
+    <h2>Track: <span>{{ post.track }}</span></h2>
+    <h3><a href="#">Permalink</a></h3>
+  </div>
 </article>
 {% endfor %}

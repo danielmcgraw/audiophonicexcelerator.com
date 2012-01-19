@@ -1,6 +1,6 @@
 ---
 artist: DJ Shadow
-song: Scale It Back
+track: Scale It Back
 site: vimeo
-vid: 31908447
+tid: 31908447
 ---

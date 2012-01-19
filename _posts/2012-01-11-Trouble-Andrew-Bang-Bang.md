@@ -1,6 +1,6 @@
 ---
 artist: Trouble Andrew
-song: Bang Bang
+track: Bang Bang
 site: vimeo
-vid: 6523035
+tid: 6523035
 ---
