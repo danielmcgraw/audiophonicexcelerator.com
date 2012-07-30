@@ -204,38 +204,23 @@ table { border-collapse: collapse; border-spacing: 0; }
 html, body { width: 100%; }
 
 header { margin-left: 15%; text-align: left; height: 400px; }
-
-header img {
-    margin-top: 60px;
-}
-
-header h1 {
-    font-size: 23px;
-    color: #333;
-    margin-top: -33px;
-    margin-left: 24px;
-}
-
-header a {
-    text-decoration: none;
-}
-
-header a:visited {
-    color: #333;
-}
+header img { margin-top: 60px; }
+header h1 { font-size: 23px; color: #333; margin-top: -33px; margin-left: 24px; }
+header a { text-decoration: none; }
+header a:visited { color: #333; }
 
 article { float: left; width: 100%; border-top: 1px solid #e8e8e8; padding-top: 25px; padding-bottom: 25px; }
 
 #track { clear: left; float: left; width: 800px; display: inline; }
 
 #info { color: #333; float: left; display: inline; }
-
 #info h2 span { color: #000; }
 
 iframe, object { margin-left: 15%; width: 600px; }
 
-footer { border-top: 1px solid #e8e8e8; padding-top: 30px; margin-top: 10px; clear: both; height: 150px; }
-
+footer { border-top: 1px solid #e8e8e8; text-align:right; color:#ddd; clear: both; height: 18px; }
+footer a { color: #ccc; text-decoration: none; }
+footer a:visited { color: #ccc; }
 
 /* =============================================================================
    Non-semantic helper classes
