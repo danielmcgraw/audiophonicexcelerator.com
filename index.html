@@ -10,6 +10,8 @@ title: Audiophonic Excelerator
       <iframe src="http://player.vimeo.com/video/{{ post.tid }}?title=0&amp;byline=0&amp;portrait=0" width="600" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
     {% elsif post.site == "soundcloud" %}
       <object height="81" width="100%"><param name="movie" value="http://player.soundcloud.com/player.swf?url=http://soundcloud.com/{{ post.tid }}&amp;g=bb"></param><param name="allowscriptaccess" value="always"></param><embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http://soundcloud.com/{{ post.tid }}&amp;g=bb" type="application/x-shockwave-flash" width="100%"></embed></object>
+    {% elsif post.site == "bandcamp" %}
+      <iframe width="300" height="410" style="position: relative; display: block; width: 300px; height: 410px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album={{ post.tid }}/size=grande3/bgcol=FFFFFF/linkcol=000000/" allowtransparency="true" frameborder="0">
     {% endif %}
   </div>
   <div id="info">
